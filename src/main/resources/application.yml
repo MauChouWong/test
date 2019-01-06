@@ -1,0 +1,10 @@
+monitor:
+  url: #检查接口地址列表
+  - http://www.baidu.com
+  - http://www.sina.com.cn
+  mobiles: #告警通知手机
+  - 18718479184
+  - 18718479184
+  emails: #告警通知邮箱
+  - huangmz@uhuibao.com
+  - huangmz@163.com

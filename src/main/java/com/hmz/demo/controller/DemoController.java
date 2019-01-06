@@ -20,7 +20,7 @@ public class DemoController {
     private static Logger LOG = LoggerFactory.getLogger(DemoController.class);
     @RequestMapping("api")
     public String api(HttpServletRequest request){
-        try {
+        try { //测试一下git
             String params = readStreamParameter(request.getInputStream());
             LOG.info("params:"+params);
             JSONObject json = JSONObject.parseObject(params);
